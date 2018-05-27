@@ -10,3 +10,7 @@
 [[constraint]]
   branch = "master"
   name = "github.com/SAP/go-hdb"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/gocql/gocql"

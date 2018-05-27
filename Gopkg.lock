@@ -234,6 +234,17 @@
 
 [[projects]]
   branch = "master"
+  name = "github.com/gocql/gocql"
+  packages = [
+    ".",
+    "internal/lru",
+    "internal/murmur",
+    "internal/streams"
+  ]
+  revision = "22c5b8dee85f833e24ff68214e4f93738f3a5114"
+
+[[projects]]
+  branch = "master"
   name = "github.com/gohxs/readline"
   packages = ["."]
   revision = "a780388e6e7cb475327da556ecfda0edbb374d80"
@@ -243,6 +254,18 @@
   packages = ["proto"]
   revision = "b4deda0973fb4c70b50d226b1af49f3da59f5265"
   version = "v1.1.0"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/golang/snappy"
+  packages = ["."]
+  revision = "2e65f85255dbc3072edf28d6b5b8efc472979f5a"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/hailocab/go-hostpool"
+  packages = ["."]
+  revision = "e80d13ce29ede4452c43dea11e79b9bc8a15b478"
 
 [[projects]]
   branch = "master"
@@ -454,6 +477,12 @@
   version = "v0.3.0"
 
 [[projects]]
+  name = "gopkg.in/inf.v0"
+  packages = ["."]
+  revision = "d2d2541c53f18d2a059457998ce2876cc8e67cbf"
+  version = "v0.9.1"
+
+[[projects]]
   name = "gopkg.in/jcmturner/aescts.v1"
   packages = ["."]
   revision = "f6abebb3171c4c1b1fea279cb7c7325020a26290"
@@ -516,6 +545,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "f4809e1a80787b0d886c240918b3b8eaefac109ff72bc4e8b8a0b6cc423e85b5"
+  inputs-digest = "7778a93b2eba1403d33f9eae10b9cae4236a2a9d6690c81d10d89a7af8b8713d"
   solver-name = "gps-cdcl"
   solver-version = 1

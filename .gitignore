@@ -17,3 +17,5 @@
 
 /instantclient*
 /*.pc
+
+.idea
